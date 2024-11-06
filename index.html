@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <!--We are now in HTML-->
+    <head>
+        <!--Title-->
+        <title>
+            
+            firefly
+        </title>
+        <style>
+            img{
+                border-radius: 8px;
+            }
+        </style>
+        <!--Refrensing the code file for java-->
+        <script src = "code.js"></script>
+    </head>
+    <!--Main body for the game-->
+    <body>
+        <center>
+            <p id="startMessage">
+                <h4>
+                    KEEP CLICKING <img src="firefly.gif" alt="Paris" width="50" height="50"> TO WIN
+                </h4>
+                <p id="SCORE">
+                    SCORE: 0
+                </p>
+                <p>
+                    TIME LEFT
+                </p>
+                <p id="timeLEft">
+                    60
+                </p>
+            </p>
+            <!-- found out you can put this in here and now the gif is a button-->
+            <button type="button" id = "startGame" onclick="StartingGame()"><img src="firefly.gif" alt="Paris" width="100" height="100"></button>
+            
+        </center>
+
+    </body>
+    <footer>
+
+    </footer>
+</html>
